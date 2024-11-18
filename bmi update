@@ -1,0 +1,19 @@
+# Dieses Programm berechnet den Body Mass Index einer Person mit einem Gewicht von 62.5 und einer Größe von 170 cm. 
+
+name = input('Bitte Name eingeben: ')
+weight = input('Bitte Körpergewicht eingeben: ')
+height = input('Bitte Körpergröße eingeben: ')
+
+weight = float(weight)
+height = int(height)
+
+bmi = weight/(height*height)*100*100
+
+print(str(bmi))
+print(f'Die Person namens {name} hat einen BMI von {bmi}.')
+
+
+
+print(type(name)) 
+print(type(weight)) 
+print(type(height)) 

@@ -1,0 +1,3 @@
+output_message = 'Hello World!'
+
+print(output_message)

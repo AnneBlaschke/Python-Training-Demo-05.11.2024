@@ -1,0 +1,9 @@
+# Dieses Programm berechnet den Body Mass Index einer Person mit einem Gewicht von 62.5 und einer Größe von 170 cm. 
+
+name = 'Blaschke'
+weight = 62.5
+height = 170
+
+bmi = weight/(height*height)*100*100
+
+print (bmi)
